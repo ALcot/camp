@@ -1,0 +1,50 @@
+body {
+  background-color: darkseagreen;
+}
+
+.h {
+  margin: 1% auto;
+  height: 200px;
+  width: 1200px;
+  border: 3px solid black;
+}
+
+.q {
+  background-color: aliceblue;
+  height: 100px;
+  width: 800px;
+  margin: 2% auto;
+  border: 8px solid lightcoral;
+  font-size: 55px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.box {
+  width: 750px;
+  height: 270px;
+  border: 3px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 2% auto;
+  background-color: greenyellow;
+}
+
+.box button {
+  display: inline-block;
+  border-radius: 0; /* 角丸 */
+  box-shadow: 1px 1px 1px #666666; /* 影の設定 */
+  cursor: pointer; /* カーソル形状 */
+  transition: 0.3s; /* なめらか変化 */
+  width: 130px;
+  height: 130px;
+  border: 3px solid red;
+  background-color: antiquewhite;
+}
+
+.box button:hover {
+  box-shadow: none; /* 影の設定 */
+  border-radius: 50%; /* 角丸 */
+}
